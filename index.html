@@ -1,386 +1,399 @@
+
 <!DOCTYPE html>
-<html>
-<head>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Black &mdash; Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FreeHTML5.co" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FreeHTML5.co" />
 
-	<title>Constructive HTML Template</title>
-<!--
+  <!-- 
+	//////////////////////////////////////////////////////
 
-Template 2102 Constructive
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
 
-http://www.tooplate.com/view/2102-constructive
+	//////////////////////////////////////////////////////
+	 -->
 
--->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
-	<link rel="stylesheet" href="css/fontawesome-all.min.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-	<link rel="stylesheet" href="css/tooplate-style.css">
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-	<script>
-		var renderPage = true;
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
 
-	if(navigator.userAgent.indexOf('MSIE')!==-1
-		|| navigator.appVersion.indexOf('Trident/') > 0){
-   		/* Microsoft Internet Explorer detected in. */
-   		alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
-   		renderPage = false;
-	}
-	</script>
-</head>
-
-<body>
-	<!-- Loader -->
-	<div id="loader-wrapper">
-		<div id="loader"></div>
-		<div class="loader-section section-left"></div>
-		<div class="loader-section section-right"></div>
-	</div>
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 	
-	<!-- Page Content -->
-	<div class="container-fluid tm-main">
-		<div class="row tm-main-row">
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Style -->
+	<link rel="stylesheet" href="css/style.css">
 
-			<!-- Sidebar -->
-			<div id="tmSideBar" class="col-xl-3 col-lg-4 col-md-12 col-sm-12 sidebar">
 
-				<button id="tmMainNavToggle" class="menu-icon">&#9776;</button>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-				<div class="inner">
-					<nav id="tmMainNav" class="tm-main-nav">
-						<ul>
-							<li>
-								<a href="#intro" id="tmNavLink1" class="scrolly active" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-1">
-									<i class="fas fa-home tm-nav-fa-icon"></i>
-									<span>Introduction</span>
-								</a>
-							</li>
-							<li>
-								<a href="#products" id="tmNavLink2" class="scrolly" data-bg-img="constructive_bg_02.jpg" data-page="#tm-section-2" data-page-type="carousel">
-									<i class="fas fa-map tm-nav-fa-icon"></i>
-									<span>Our Products</span>
-								</a>
-							</li>							
-							<li>
-								<a href="#company" class="scrolly" data-bg-img="constructive_bg_03.jpg" data-page="#tm-section-3">
-									<i class="fas fa-users tm-nav-fa-icon"></i>
-									<span>Our Company</span>
-								</a>
-							</li>
-							<li>
-								<a href="#contact" class="scrolly" data-bg-img="constructive_bg_04.jpg" data-page="#tm-section-4">
-									<i class="fas fa-comments tm-nav-fa-icon"></i>
-									<span>Contact Us</span>
-								</a>
-							</li>
-						</ul>
-					</nav>
+	</head>
+	<body>
+	<header role="banner" id="fh5co-header">
+		<div class="fluid-container">
+			<nav class="navbar navbar-default navbar-fixed-top js-fullheight">
+				<div id="navbar" class="navbar-collapse js-fullheight">
+					<ul class="nav navbar-nav navbar-left">
+						<li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+						<li><a href="#" data-nav-section="services"><span>Services</span></a></li>
+						<li><a href="#" data-nav-section="explore"><span>Project</span></a></li>
+						<li><a href="#" data-nav-section="pricing"><span>Pricing</span></a></li>
+						<li><a href="#" data-nav-section="team"><span>Team</span></a></li>
+					</ul>
+				</div>
+			</nav>
+	  </div>
+	</header>
+
+	<section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
+		<div class="gradient"></div>
+		<div class="container">
+			<div class="text-wrap">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center">
+							<h1 class="to-animate">BIENVENIDO</h1>
+							<h2 class="to-animate">Felicidades por ser uno de los invitados a la fiesta más Top de los últimos años. </h2>
+						</div>
+					</div>
 				</div>
 			</div>
-
-			<div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 tm-content">
-
-					<!-- section 1 -->
-					<section id="tm-section-1" class="tm-section">
-						<div class="ml-auto">
-							<header class="mb-4"><h1 class="tm-text-shadow">Constructive Design</h1></header>
-							<p class="mb-5 tm-font-big">Aenean fermentum vestibulum ipsum, ut pretium erat sodales sodales. Pellentesque quis orci vitae dui commodo sodales et ut quam. Etiam vitae egestas purus, ut malesuada enim.</p>
-							<a href="#" class="btn tm-btn tm-font-big" data-nav-link="#tmNavLink2">Continue...</a> 
-							<!-- data-nav-link holds the ID of nav item, which means this link should behave the same as that nav item  -->
-						</div>
-					</section>
-
-					<!-- section 2 -->
-					<section id="tm-section-2" class="tm-section tm-section-carousel">
-						<div>
-							<header class="mb-4"><h2 class="tm-text-shadow">Our Products</h2></header>		            
-							<div class="tm-img-container">
-								<div class="tm-img-slider">
-									<a href="img/gallery-img-01.jpg" class="tm-slider-img"><img src="img/gallery-img-01-tn.jpg" alt="Image" class="img-fluid"></a>
-									<a href="img/gallery-img-02.jpg" class="tm-slider-img"><img src="img/gallery-img-02-tn.jpg" alt="Image" class="img-fluid"></a>
-									<a href="img/gallery-img-03.jpg" class="tm-slider-img"><img src="img/gallery-img-03-tn.jpg" alt="Image" class="img-fluid"></a>
-									<a href="img/gallery-img-04.jpg" class="tm-slider-img"><img src="img/gallery-img-04-tn.jpg" alt="Image" class="img-fluid"></a>
-									<a href="img/gallery-img-05.jpg" class="tm-slider-img"><img src="img/gallery-img-05-tn.jpg" alt="Image" class="img-fluid"></a>
-									<a href="img/gallery-img-06.jpg" class="tm-slider-img"><img src="img/gallery-img-06-tn.jpg" alt="Image" class="img-fluid"></a>
-								</div>
-							</div>		            		          
-						</div>       		          	
-					</section>
-
-					<!-- section 3 -->
-					<section id="tm-section-3" class="tm-section">						
-						<div class="row mb-4">
-							<header class="col-xl-12"><h2 class="tm-text-shadow">Our Company</h2></header>		
-						</div>
-						<div class="row">
-							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
-								<div class="media tm-bg-transparent-black tm-border-white">
-									<i class="fab fa-apple tm-icon-circled tm-icon-media"></i>
-									<div class="media-body">
-										<h3>HTML Templates</h3>
-										<p>We provide a variety of templates for you at no cost. Please spread a word about <a href="https://plus.google.com/+tooplate" target="_parent">Tooplate</a> website. Thank you.</p>	
-									</div>
-								</div>
-							</div>	
-							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
-								<div class="media tm-bg-transparent-black tm-border-white">
-									<i class="fas fa-map-pin mr-4 tm-icon-circled tm-icon-media"></i>	
-									<div class="media-body">
-										<h3>Free Images</h3>
-										<p>Photos by <a href="https://unsplash.com" target="_blank">Unsplash.com</a> website, ac ornare arcu finibus sed. Aenean ultrices nisi sit amet facilisis viverra.</p>	
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
-								<div class="media tm-bg-transparent-black tm-border-white">
-									<i class="fab fa-fly mr-4 tm-icon-circled tm-icon-media"></i>
-									<div class="media-body">
-										<h3>Phasellus eleifend</h3>
-										<p>Phasellus feugiat scelerisque sapien, ac ornare arcu finibus sed. Aenean ultrices nisi sit amet facilisis viverra.</p>		
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-12 col-md-6 col-lg-12 col-xl-6 mb-4">
-								<div class="media tm-bg-transparent-black tm-border-white">
-									<i class="fab fa-linode mr-4 tm-icon-circled tm-icon-media"></i>
-									<div class="media-body">
-										<h3>Phasellus eleifend</h3>
-										<p>Phasellus feugiat scelerisque sapien, ac ornare arcu finibus sed. Aenean ultrices nisi sit amet facilisis viverra.</p>	
-									</div>
-								</div>
-							</div>			          		
-						</div>						               
-					</section>
-
-					<!-- section 4 -->
-					<section id="tm-section-4" class="tm-section">
-						<div class="tm-bg-transparent-black tm-contact-box-pad">
-							<div class="row mb-4">
-								<div class="col-sm-12">
-									<header><h2 class="tm-text-shadow">Contact Us</h2></header>
-								</div>
-							</div>
-							<div class="row tm-page-4-content">
-								<div class="col-md-6 col-sm-12 tm-contact-col">
-									<div class="contact_message">
-										<form action="#contact" method="post" class="contact-form">
-											<div class="form-group">
-												<input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required>
-											</div>
-											<div class="form-group">
-												<input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required>
-											</div>
-											<div class="form-group">
-												<textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
-											</div>
-											<button type="submit" class="btn tm-btn-submit tm-btn ml-auto">Submit</button>
-										</form>
-									</div>
-								</div>
-								<div class="col-md-6 col-sm-12 tm-contact-col">
-									<div class="tm-address-box">
-										<p>Aliquam interdum, nisl sedd faucibus tempor, massa velit laoreet ipsum, et faucibus sapien magna at enim. Suspendisse a dictum tortor.</p>
-										<p>Curabitur venenatis leo in augue convallis, vulputate sollicitudin ex maximus.</p>
-										<address>
-											120-240 Aliquam nec neque augue<br>
-											Suspendisse tincidunt nunc,<br>
-											vitae sagis justo 11000
-										</address>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>					
-				</div>	<!-- .tm-content -->							
-				<footer class="footer-link">
-					<p class="tm-copyright-text">Copyright &copy; 2018 Constructive Co. Ltd. 
-                    
-                    - Design: Tooplate</p>
-				</footer>
-			</div>	<!-- row -->			
 		</div>
-		<div id="preload-01"></div>
-		<div id="preload-02"></div>
-		<div id="preload-03"></div>
-		<div id="preload-04"></div>
+	</section>
 
-		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-		<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
-		<script type="text/javascript" src="slick/slick.min.js"></script> <!-- Slick Carousel -->
+	<section id="fh5co-services" data-section="services">
+		<div class="fh5co-services">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 section-heading text-center">
+						<h2 class="to-animate">Black Features</h2>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 subtext">
+								<h3 class="to-animate">Cómo ya te diste cuenta en éste evento  celebraremos mi cumpleaños pero no será una fiesta de cumpleaños normal, será una fiesta donde resaltará la clase que tenemos. </h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="core-features">
+						<div class="grid2 to-animate" style="background-image: url(images/full_image_2.jpg);">
+						</div>
+						<div class="grid2">
+							<div class="core-f">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="core">
+											<i class="icon-cloud-download to-animate-2"></i>
+											<div class="fh5co-post to-animate">
+												<h3>No es secreto que está fiesta será súper exclusiva</h3>
+												<p>Estoy tratando de armar el mejor evento posible para que todos tengamos una noche diferente al resto, una noche donde estemos en lo más alto.</p>
+											</div>
+										</div>
+										<div class="core">
+											<i class="icon-laptop to-animate-2"></i>
+											<div class="fh5co-post to-animate">
+												<h3>El dinero no tiene que ser un problema</h3>
+												<p>Para que yo disfrute mi cumpleaños lo más placentero posible y tampoco será un problema para poder darles la noche más genial, divertida y sobre todo elegante de todas.</p>
+											</div>
+										</div>
+										<div class="core">
+											<i class="icon-gear to-animate-2"></i>
+											<div class="fh5co-post to-animate">
+												<h3>Estoy con toda la disposición de tener una fiesta espectacular</h3>
+												<p>Voy con toda la intención de disfrutar al máximo y de llenar de buenas vibras el lugar, espero tu sientas lo mismo.</p>
+											</div>
+										</div>
+										<div class="core">
+											<i class="icon-columns to-animate-2"></i>
+											<div class="fh5co-post to-animate">
+												<h3>Prepárate para perdernos a lo grande en un lugar con todas las comodidades posibles.</h3>
+												<p>Vamos a ponernos la peda de nuestra vida en el motel más exclusivo de la ciudad de México ¡Prepárate!
+													Te espero el 21 de Agosto</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		
+			</div>
+		</div>
+	</section>
 
-		<script>
+	<section id="fh5co-explore" data-section="explore">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Motel V</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Está fiesta tendrá un costo de 700 pesos, los cuales valdrán totalmente la pena hasta el último peso. Recuerda de todo lo que vamos a disfrutar:</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Para poder hacer más amena su estadía les prepare un Kit de regalo que les ayudará a disfrutar de mejor manera la fiesta. Para tener acceso a ese kit se les entregará una pulsera magnética que servirá para abrir un casillero que vendrá personalizado con tu nombre y regalos que seleccione para ustedes.
+								Si deseas esté kit tendrás que pagar un depósito de $250 en la recepción del hotel pero recuerda que solo es un depósito, al momento que te retires y entregues la pulsera se te regresarán los $250 garantizado.
+								Recuerda que no vas a gastar nada de dinero dentro de la fiesta ya que todo, absolutamente TODO está cubierto.
+								Sin mencionar que al pagar el kit tendrás acceso a un casillero personal para guardar tus cosas y solo podrás abrirlo con tu pulsera
+								La verdad no es obligatorio el kit pero yo si lo recomiendo por completo para que vivas la experiencia al maximo.
+								No vas a gastar dinero, solamente se guardará en lo que disfrutas al máximo de la mejor fiesta.</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Para poder hacer más amena su estadía les prepare un Kit de regalo que les ayudará a disfrutar de mejor manera la fiesta. Para tener acceso a ese kit se les entregará una pulsera magnética que servirá para abrir un casillero que vendrá personalizado con tu nombre y regalos que seleccione para ustedes.
+								Si deseas esté kit tendrás que pagar un depósito de $250 en la recepción del hotel pero recuerda que solo es un depósito, al momento que te retires y entregues la pulsera se te regresarán los $250 garantizado.
+								Recuerda que no vas a gastar nada de dinero dentro de la fiesta ya que todo, absolutamente TODO está cubierto.
+								Sin mencionar que al pagar el kit tendrás acceso a un casillero personal para guardar tus cosas y solo podrás abrirlo con tu pulsera
+								La verdad no es obligatorio el kit pero yo si lo recomiendo por completo para que vivas la experiencia al maximo.
+								No vas a gastar dinero, solamente se guardará en lo que disfrutas al máximo de la mejor fiesta.</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-		var sidebarVisible = false;
-		var currentPageID = "#tm-section-1";
+	
 
-		// Setup Carousel
-		function setupCarousel() {
+		<div class="fh5co-project">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="project-grid to-animate-2" style="background-image:  url(images/project-1.jpg);">
+							<div class="desc">
+								<h3><a href="#">MasCom Template</a></h3>
+								<span>By: Louie D' Great</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center">
+						<div class="project-grid to-animate-2" style="background-image:  url(images/project-2.jpg);">
+							<div class="desc">
+								<h3><a href="#">Long Tower</a></h3>
+								<span>By: John Doe</span>
+							</div>
+						</div>
+					</div>
+			
+				
+				
+				</div>
+			</div>	
+		</div>
+	</section>
+	
+	<section id="fh5co-pricing" data-section="pricing">
+		<div class="fh5co-pricing">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 section-heading text-center">
+						<h2 class="to-animate">Requisitos</h2>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 subtext">
+								
+							</div>
+						</div>
+					</div>
+				</div>
 
-			// If current page isn't Carousel page, don't do anything.
-			if($('#tm-section-2').css('display') == "none") {
-			}
-			else {	// If current page is Carousel page, set up the Carousel.
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<div class="price-box to-animate">
+							
+						
+							<p>Ropa formal (Recuerda que es una fiesta de gala, por favor todos luzcan lo mejor que tienen)</p>
+							<p>Mandar captura de pantalla del comprobante de pago a la cuenta de Instagram: leonardito_as , _bad.sinner</p>
+							<p>Traje de baño</p>
+							<p>No llevar comida</p>
+							<hr>
+							
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="price-box to-animate">
+						
+							<p>Llevar Identificación oficial (para poder acceder al lugar)</p>
+							<p>Al entrar al lugar tod@s quedan solter@s</p>
+							<p>Besos con el cumpleañero en la entrada</p>
+							<hr>
+				
+						</div>
+					</div>
+					<div class="clearfix visible-sm-block"></div>
+					<div class="col-md-3 col-sm-6">
+						<div class="price-box to-animate">
+					
+							<p>Regalo obligatorio (porfis)</p>
+							<p>Llevar su boleto (Pase VIP)</p>
+							<p>Hora de entrada de 4pm a las 6pm</p>
+							<hr>
+						
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 to-animate">
+						<div class="price-box popular">
+							<div class="popular-text">DINÁMICA OBLIGATORIA</div>
+					
+	
+							<p>El día 21 de Julio tendras que subir una historia a Instagram etiquetando las siguientes cuentas: leonardito_as   y   _bad.sinner.
+								En la historia deberás de salir con tu invitación para el evento de manera visible y dando a entender que estás preparándote o deseando que ya llegué el día de la fiesta.</p>
+							<hr>
+							
+						</div>
+					</div>
+					
+				</div>
 
-				var slider = $('.tm-img-slider');
-				var windowWidth = $(window).width();
 
-				if (slider.hasClass('slick-initialized')) {
-					slider.slick('destroy');
-				}
+			</div>
+		</div>
+	</section>	
 
-				if(windowWidth < 640) {
-					slider.slick({
-	              		dots: true,
-	              		infinite: false,
-	              		slidesToShow: 1,
-	              		slidesToScroll: 1
-	              	});
-				}
-				else if(windowWidth < 992) {
-					slider.slick({
-	              		dots: true,
-	              		infinite: false,
-	              		slidesToShow: 2,
-	              		slidesToScroll: 1
-	              	});
-				}
-				else {
-					// Slick carousel
-	              	slider.slick({
-	              		dots: true,
-	              		infinite: false,
-	              		slidesToShow: 3,
-	              		slidesToScroll: 2
-	              	});
-				}
+	<section id="fh5co-team" data-section="team">
+		<div class="fh5co-team">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 section-heading text-center">
+						<h2 class="to-animate">KIT DE BIENVENIDA (RECOMENDADO MÁS NO OBLIGATORIO)</h2>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2 subtext">
+							
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="team-box text-center to-animate-2">
+							<div class="user"><img class="img-reponsive" src="images/full_image_11.jpg" alt="Roger Garfield"></div>
+						
+							<p>Para poder hacer más amena su estadía les prepare un Kit de regalo que les ayudará a disfrutar de mejor manera la fiesta. Para tener acceso a ese kit se les entregará una pulsera magnética que servirá para abrir un casillero que vendrá personalizado con tu nombre y regalos que seleccione para ustedes.</p>
+						
+						</div>
+					</div>
 
-				// Init Magnific Popup
-				$('.tm-img-slider').magnificPopup({
-				  delegate: 'a', // child items selector, by clicking on it popup will open
-				  type: 'image',
-				  gallery: {enabled:true}
-				  // other options
-				});
-      		}
-  		}
+					<div class="col-md-4">
+						<div class="team-box text-center to-animate-2">
+							<div class="user"><img class="img-reponsive" src="images/user-2.jpg" alt="Roger Garfield"></div>
+						
+							<p>Si deseas esté kit tendrás que pagar un depósito de $250 en la recepción del hotel pero recuerda que solo es un depósito, al momento que te retires y entregues la pulsera se te regresarán los $250 garantizado. </p>
 
-  		// Setup Nav
-  		function setupNav() {
-  			// Add Event Listener to each Nav item
-	     	$(".tm-main-nav a").click(function(e){
-	     		e.preventDefault();
-		    	
-		    	var currentNavItem = $(this);
-		    	changePage(currentNavItem);
-		    	
-		    	setupCarousel();
-		    	setupFooter();
+						</div>
+					</div>
 
-		    	// Hide the nav on mobile
-		    	$("#tmSideBar").removeClass("show");
-		    });	    
-  		}
+					<div class="col-md-4">
+						<div class="team-box text-center to-animate-2">
+							<div class="user"><img class="img-reponsive" src="images/user-3.jpg" alt="Roger Garfield"></div>
+				
+	
+							<p>Recuerda que no vas a gastar nada de dinero dentro de la fiesta ya que todo, absolutamente TODO está cubierto.
+								Sin mencionar que al pagar el kit tendrás acceso a un casillero personal para guardar tus cosas y solo podrás abrirlo con tu pulsera
+								La verdad no es obligatorio el kit pero yo si lo recomiendo por completo para que vivas la experiencia al maximo.
+								No vas a gastar dinero, solamente se guardará en lo que disfrutas al máximo de la mejor fiesta.</p>
 
-  		function changePage(currentNavItem) {
-  			// Update Nav items
-  			$(".tm-main-nav a").removeClass("active");
-     		currentNavItem.addClass("active");
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div id="fh5co-footer" role="contentinfo">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 to-animate">
+					<h3 class="section-title">Datos del lugar</h3>
+					<p>Está fiesta iniciará el sábado 21 de agosto a partir de las 4 de la tarde y terminará el domingo 22 de agosto a las 12pm (medio día)</p>
+				
+				</div>
 
-	    	$(currentPageID).hide();
+				<div class="col-md-4 to-animate">
+					<h3 class="section-title">Direccion</h3>
+					<ul class="contact-info">
+						<li><i class="icon-map-marker"></i>La fiesta se realizará en el Motel V boutique Periférico SUR
+							Anillo periférico 5552, El Caracol, Coyoacán, 04739, Ciudad de México, CDMX
+							Cerca del estadio Azteca, sobre periférico.</li>
+						<li><i class="icon-phone"></i>Cualquier duda se podrán contactar conmigo al teléfono 5521829381</li>
+					
+						<li><i class="icon-globe2"></i><a href="#">
+							Al llegar al lugar entraran ya sea a pie o en carro con boleto e identificación en mano.
+							Al momento de estar en recepción indican que vienen al evento de Luis Amador y de ahí los mandan al elevador para subir al piso 7 y llegar al penthouse
+							</a></li>
+					</ul>
+				
+				
+				</div>
+		
+			</div>
+		</div>
+	</div>
 
-	    	// Show current page
-	    	currentPageID = currentNavItem.data("page");
-	    	$(currentPageID).fadeIn(1000);
+	<div class="getting-started getting-started-1">
+		<div class="getting-grid" style="background-image:  url(images/full_image_1.jpg);">
+			<div class="desc text-center">
+				<h2>Getting Started</h2>
+			
+			
+			</div>
+		</div>
+	</div>
 
-	    	// Change background image
-	    	var bgImg = currentNavItem.data("bgImg");
-	    	$.backstretch("img/" + bgImg);		    	
-  		}
 
-  		// Setup Nav Toggle Button
-  		function setupNavToggle() {
+	<!-- <div id="map" class="fh5co-map"></div> -->
 
-			$("#tmMainNavToggle").on("click", function(){
-				$(".sidebar").toggleClass("show");
-			});
-  		}
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
 
-  		// If there is enough room, stick the footer at the bottom of page content.
-  		// If not, place it after the page content
-  		function setupFooter() {
-  			
-  			var padding = 100;
-  			var footerPadding = 40;
-  			var mainContent = $("section"+currentPageID);
-  			var mainContentHeight = mainContent.outerHeight(true);
-  			var footer = $(".footer-link");
-  			var footerHeight = footer.outerHeight(true);
-  			var totalPageHeight = mainContentHeight + footerHeight + footerPadding + padding;
-  			var windowHeight = $(window).height();		
-
-  			if(totalPageHeight > windowHeight){
-  				$(".tm-content").css("margin-bottom", footerHeight + footerPadding + "px");
-  				footer.css("bottom", footerHeight + "px");  			
-  			}
-  			else {
-  				$(".tm-content").css("margin-bottom", "0");
-  				footer.css("bottom", "20px");  				
-  			}  			
-  		}
-
-  		// Everything is loaded including images.
-      	$(window).on("load", function(){
-
-      		// Render the page on modern browser only.
-      		if(renderPage) {
-				// Remove loader
-		      	$('body').addClass('loaded');
-
-		      	// Page transition
-		      	var allPages = $(".tm-section");
-
-		      	// Handle click of "Continue", which changes to next page
-		      	// The link contains data-nav-link attribute, which holds the nav item ID
-		      	// Nav item ID is then used to access and trigger click on the corresponding nav item
-		      	var linkToAnotherPage = $("a.tm-btn[data-nav-link]");
-			    
-			    if(linkToAnotherPage != null) {
-			    	
-			    	linkToAnotherPage.on("click", function(){
-			    		var navItemToHighlight = linkToAnotherPage.data("navLink");
-			    		$("a" + navItemToHighlight).click();
-			    	});
-			    }
-		      	
-		      	// Hide all pages
-		      	allPages.hide();
-
-		      	$("#tm-section-1").fadeIn();
-
-		     	// Set up background first page
-		     	var bgImg = $("#tmNavLink1").data("bgImg");
-		     	
-		     	$.backstretch("img/" + bgImg, {fade: 500});
-
-		     	// Setup Carousel, Nav, and Nav Toggle
-			    setupCarousel();
-			    setupNav();
-			    setupNavToggle();
-			    setupFooter();
-
-			    // Resize Carousel upon window resize
-			    $(window).resize(function() {
-			    	setupCarousel();
-			    	setupFooter();
-			    });
-      		}	      	
-		});
-
-		</script>
 	</body>
 </html>
+
